@@ -20,7 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-purple">Sumit Kumar</span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold mb-6 typewriter">
-            Mern Stack Developer
+            Full Stack Developer
           </h2>
           <p className="text-lg md:text-xl text-gray-300 mb-8">
             I create stunning web experiences with modern technologies and

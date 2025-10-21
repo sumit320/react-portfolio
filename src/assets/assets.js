@@ -13,7 +13,7 @@ import {
 import profileImg1 from "../assets/profile1.png";
 import profileImg2 from "../assets/profile2.png";
 import projectImg1 from "../assets/project1.avif";
-import projectImg3 from "../assets/blog.jpg"
+import projectImg3 from "../assets/blog.jpg";
 import { SiExpress, SiMongodb, SiNextdotjs } from "react-icons/si";
 
 export const assets = {
@@ -50,31 +50,38 @@ export const skills = [
     title: "Frontend Development",
     icon: FaReact,
     description:
-      "Building responsive and interactive user interfaces with modern frameworks.",
-    tags: ["React", "Tailwind Css", "Framer Motion", "javascript"],
+      "Building responsive, fast, and dynamic user interfaces with modern frontend frameworks.",
+    tags: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "JavaScript",
+      "TypeScript",
+    ],
   },
   {
     title: "Backend Development",
     icon: FaServer,
-    description: "Creating robust server-side applications and RESTful APIs.",
-    tags: ["Node.js", "Express", "REST APIs"],
+    description:
+      "Creating scalable and secure backend systems with RESTful APIs and server-side logic.",
+    tags: ["Node.js", "Express", "Next.js API Routes", "REST APIs"],
   },
   {
     title: "Database Management",
     icon: FaDatabase,
     description:
-      "Designing and optimizing databases for performance and scalability.",
-    tags: ["MongoDB", "PostgreSQL", "MySQL"],
+      "Designing efficient databases and ensuring high performance and data integrity.",
+    tags: ["MongoDB", "PostgreSQL", "MySQL", "Mongoose"],
   },
   {
     title: "Tools & Technologies",
     icon: FaTools,
     description:
-      "Essential tools and technologies I use in my development workflow.",
-    tags: ["Git & GitHub", "VS Code", "Postman"],
+      "Using essential tools and platforms for development, testing, and deployment.",
+    tags: ["Git & GitHub", "VS Code", "Postman", "Vercel", "Netlify"],
   },
 ];
-
 export const projects = [
   {
     title: "E-Commerce Platform",
@@ -90,7 +97,7 @@ export const projects = [
     title: "Blog App (Next.js)",
     description:
       "A dynamic blogging platform built with Next.js 15, MongoDB, and Arcjet for security. Features user authentication, blog creation, search functionality, and responsive design.",
-    image: projectImg3, 
+    image: projectImg3,
     tech: ["Next.js", "MongoDB", "Arcjet", "Zod", "Tailwind CSS"],
     icons: [SiNextdotjs, SiMongodb, FaReact],
     demo: "https://blog-app-next-js-gamma.vercel.app/",

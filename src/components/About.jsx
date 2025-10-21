@@ -50,8 +50,8 @@ const About = () => {
 
               <p className="text-gray-300 mb-6">
                 I’m a passionate{" "}
-                <span className="text-purple">MERN Stack Developer</span>
-                with around 4 months of hands-on experience in building modern
+                <span className="text-purple">MERN Stack Developer </span>
+                with around 6 months of hands-on experience in building modern
                 web applications. My journey started with learning the
                 fundamentals of HTML, CSS, and JavaScript, and quickly grew into
                 mastering the MERN stack to create impactful projects.
