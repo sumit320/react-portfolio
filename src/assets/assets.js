@@ -13,7 +13,8 @@ import {
 import profileImg1 from "../assets/profile1.png";
 import profileImg2 from "../assets/profile2.png";
 import projectImg1 from "../assets/project1.avif";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import projectImg3 from "../assets/blog.jpg"
+import { SiExpress, SiMongodb, SiNextdotjs } from "react-icons/si";
 
 export const assets = {
   profileImg1,
@@ -84,6 +85,16 @@ export const projects = [
     icons: [SiMongodb, SiExpress, FaReact, FaNodeJs, FaPaypal],
     demo: "https://mern-ecommerce-56xj.vercel.app/",
     code: "https://github.com/sumit320/mern-ecommerce",
+  },
+  {
+    title: "Blog App (Next.js)",
+    description:
+      "A dynamic blogging platform built with Next.js 15, MongoDB, and Arcjet for security. Features user authentication, blog creation, search functionality, and responsive design.",
+    image: projectImg3, 
+    tech: ["Next.js", "MongoDB", "Arcjet", "Zod", "Tailwind CSS"],
+    icons: [SiNextdotjs, SiMongodb, FaReact],
+    demo: "https://blog-app-next-js-gamma.vercel.app/",
+    code: "https://github.com/sumit320/blog-app-next-js",
   },
 ];
 
