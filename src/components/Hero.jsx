@@ -28,10 +28,12 @@ const Hero = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="#projects"
+              href="SUMITKUMAR.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition"
             >
-              View Work
+              View Resume
             </a>
             <a
               href="#contact"
